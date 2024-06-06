@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 372fbbbbaf7463b45bc2232297719b54, type: 3}
+  m_Name: Biome 1
+  m_EditorClassIdentifier: 
+  biomeName: 
+  difficulty: 1
+  enemyTypes:
+  - {fileID: 3017195454690473585, guid: 603cecc20d352b04295f19b5baeb4837, type: 3}
+  - {fileID: 1798468622270611554, guid: bbec3fb92deaf024bb331fd4e4d96a9d, type: 3}
+  - {fileID: 1370675445797627399, guid: a6cd46d68dcb8584196c3bc81c059cc9, type: 3}
+  - {fileID: 3017195454690473585, guid: 9af15897f64dc604492e53d7356a86aa, type: 3}
+  - {fileID: 3017195454690473585, guid: 880b84a06d225024099017f7b24b5068, type: 3}
+  - {fileID: 3017195454690473585, guid: 5343f4dd6b8317b4d892c1de5c0f34a5, type: 3}
+  - {fileID: 3017195454690473585, guid: b6cc3e1081a81914a88fb05d5f95ceb1, type: 3}
+  - {fileID: 3017195454690473585, guid: 4054ff8cc912b944db6824c211c8be60, type: 3}
+  - {fileID: 3017195454690473585, guid: 5a98924e128644248a112d469556f4a0, type: 3}
+  enemySpeed: 0.5
+  minEnemies: 10
+  maxEnemies: 20
+  levels:
+  - {fileID: 11400000, guid: 9a249ae675e624d418b4d2250a5e08e8, type: 2}
+  - {fileID: 11400000, guid: ad22b00cf1fb0a249ab02fb7c32965d3, type: 2}
+  - {fileID: 11400000, guid: 9d0e2e3ca2e3fd3429300501e5fd50ed, type: 2}
+  - {fileID: 11400000, guid: d01bb3008f599cc42abaee70ef7ed5b2, type: 2}
+  - {fileID: 11400000, guid: b1da1d7ca58e9c044939e4d899692690, type: 2}
